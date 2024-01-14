@@ -1,0 +1,40 @@
+#home {
+    background-image: url('../pic/bg.jpg');
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+#home .home-layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    width: 100%;
+}
+
+#home{
+    color: aliceblue;
+
+}
+.pris{
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    text-align: center;
+}
+.former{
+    border-top: 2px peru dotted;
+        border-bottom: 2px peru dotted;
+}
+
+
+.markr::after{
+    content: "<i class="fa-solid fa-bookmark"></i>";
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+

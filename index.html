@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon of website -->
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+    <!-- googel font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- font awsem -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- website name -->
+    <title>Bookmarker
+    </title>
+</head>
+
+<body>
+
+<!-- alert masseg eroo -->
+<div id="box-info" class=" position-absolute start-0 top-0 w-100 h-100 d-flex justify-content-center align-items-center d-none">
+    <div class="box-conent bg-white p-4 rounded-2 shadow-lg">
+      <div class="box-header w-100 d-flex justify-content-between align-items-center mb-4">
+        
+        <button class="btn border-0" id="closeBt" onclick="closebut()">
+          <i class="fa-solid fa-circle-xmark"></i>
+                </button>
+      </div>
+      <div class="text-center fa-2xl mb-3"><i class="fa-solid fa-exclamation  rounded-pill bg-warning p-3 "></i></div>
+      
+      <p class="m-0 pb-2">
+        Site Name or Url is not valid, Please follow the rules below :
+      </p>
+      <ol class="rules list-unstyled m-0">
+        <li>
+          <i class="fa-regular fa-circle-right p-2"></i>Site name must
+          contain at least 3 characters
+        </li>
+        <li>
+          <i class="fa-regular fa-circle-right p-2"></i>Site URL must be a
+          valid one
+        </li>
+      </ol>
+    </div>
+  </div>
+
+
+
+    <!-- start  home -->
+    <section id="home">
+        <div class="home-layer d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row home-context text-center">
+                    <h3 class="markr">Bookmarker</h3>
+                    <h6>Hello </h6>
+                    <h1 class=" aftebefor">Bookmark your favorite sites</h1>
+                </div>
+                <div class="row">
+                    <div class="p-5 former">
+                        <div class="form-group text-md-start">
+                            <i class="fa-solid fa-book-bookmark"></i>
+                            <label for="SiteName"> Site Name</label>
+                            <input name="SiteName" type="text" class="form-control" id="SiteName" aria-describedby="emailHelp"
+                                placeholder=" Site Name">
+                        </div>
+                        <div class="form-group text-md-start mt-3">
+                            <i class="fa-solid fa-link"></i>
+                            <label for="URLName">Site URL</label>
+                            <input name="URLName" type="email" class="form-control" id="URLName" placeholder="Site URL">
+                        </div>
+
+                        <button id="addbook" type="submit" class="btn btn-primary text-center mt-2">Submit</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <table class="table table-success table-striped-columns" id="tableadd">
+                        <thead>
+                          <tr><th class="text-capitalize">index</th>
+                          <th class="text-capitalize">Website Name</th>
+                          <th class="text-capitalize">Visit</th>
+                          <th class="text-capitalize">Delete</th>
+                        </tr></thead>
+                        <tbody id="tableContent">
+
+                          
+                        </tbody>
+                      </table>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+                    <!-- coectt -->
+                    <div class="icon d-flex mt-5 justify-content-center align-content-center">
+                        <div class="icon-redu me-3 text-center "><span class="fa-brands fa-facebook-f mr-5"></span>
+                        </div>
+                        <div class="icon-redu me-3"><span class="fa-brands fa-twitter"></span></div>
+                        <div class="icon-redu me-3"><span class="fa-brands fa-linkedin-in"></span></div>
+                        <div class="icon-redu me-3"><span class="fa-brands fa-behance"></span></div>
+                        <div class="icon-redu me-3"> <span class="fa-brands fa-youtube"></span></div>
+                    </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap jsscrebt -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- mine jsscrebt -->
+    <script src="js/mine.js"></script>
+</body>
+
+</html>
